@@ -25,3 +25,6 @@ def method2( x : Int )
     }
 
 println( s"method2(5) = ${method2(5)}" )
+
+
+// TODO: go read a variety of Scala code on GitHub and see what conventions are being used
