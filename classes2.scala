@@ -21,3 +21,12 @@ List(cookie, dragon, boozeHound).map( it => it.beScary )
 // comparing length in Groovy:
 //[cookie, dragon, boozeHound]*.beScary()
 // definitely shorter. hmm. but I'm getting ahead of the book regardless.
+
+
+class X(y:String, z:String) {
+    assert(y != "x")
+    assert(z != "y")
+}
+
+val x = new X("a", "y")
+// weird that you can just write arbitrary code inside a class definition like that. It's like each class is its own little script. maybe cool, but definitely different...
